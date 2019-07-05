@@ -25,6 +25,8 @@ public class StuController {
     @RequestMapping("test1")
     public String test1(Model model){
 
+        System.out.println("test git");
+
         String w = "Welcome FreeMarker!";
 
         try {
